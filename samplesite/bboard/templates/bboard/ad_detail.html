@@ -1,0 +1,20 @@
+<!-- ad_detail.html -->
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Add ad :: Bill board </title>
+ </head>
+ <body>
+   <h1>Add ad</h1>
+   <div>
+     <a href="{% url 'bboard:index' %}">Main page</a>
+   </div>
+   <div>
+     <p>Rubric: {{ ad.rubric.name }}</p>
+     <h2>{{ ad.title }}</h2>
+     <p>{{ ad.content }}</p>
+     <p>Price: {{ ad.price }}</p>
+   </div>
+ </body>
+</html>

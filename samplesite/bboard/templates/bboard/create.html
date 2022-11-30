@@ -1,0 +1,23 @@
+<!-- create.html -->
+<!DOCTYPE html>
+
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Create ads :: Billboard</title>
+ </head>
+ <body>
+
+
+   <h1>Add advertisement</h1>
+
+     <a href= "{% url 'index' %}"> Main page </a>
+
+   <form method="post">
+     {% csrf_token %}
+
+     {{ form.as_p }}
+     <input type="submit" value="Добавить">
+   </form>
+ </body>
+</html>

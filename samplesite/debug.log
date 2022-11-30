@@ -1,0 +1,58 @@
+2022-11-24 21:04:36,095 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:05:31,078 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:05:53,819 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:06:51,959 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:07:02,253 django.request WARNING  Not Found: /
+2022-11-24 21:07:58,735 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:08:03,487 root         ERROR    Test!
+2022-11-24 21:08:03,487 root         DEBUG    Test1
+2022-11-24 21:08:03,487 root         WARNING  Test
+2022-11-24 21:08:03,489 root         INFO     TestInfo
+2022-11-24 21:08:03,489 root         CRITICAL TestCritical
+2022-11-24 21:11:59,283 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-24 21:12:04,654 django.request WARNING  Not Found: /
+2022-11-24 21:12:04,654 django.request WARNING  Not Found: /
+2022-11-24 21:12:25,033 django.request WARNING  Not Found: /
+2022-11-24 21:12:25,033 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,208 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,208 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,718 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,718 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,945 django.request WARNING  Not Found: /
+2022-11-24 21:12:28,945 django.request WARNING  Not Found: /
+2022-11-24 21:14:24,055 django.utils.autoreload INFO     C:\Users\Prodarkness\Desktop\django-test\samplesite\samplesite\settings.py changed, reloading.
+2022-11-24 21:14:24,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2022-11-29 20:58:48,358 django.request WARNING  Not Found: /bboard/list/
+2022-11-29 20:58:48,358 django.request WARNING  Not Found: /bboard/list/
+2022-11-29 20:58:48,359 django.request WARNING  Not Found: /bboard/list/
+2022-11-29 20:58:48,359 django.request WARNING  Not Found: /bboard/list/
+2022-11-29 20:59:42,492 root         ERROR    Test!
+2022-11-29 20:59:42,493 root         DEBUG    Test1
+2022-11-29 20:59:42,493 root         WARNING  Test
+2022-11-29 20:59:42,493 root         INFO     TestInfo
+2022-11-29 20:59:42,493 root         CRITICAL TestCritical
+2022-11-29 20:59:42,509 root         ERROR    Test!
+2022-11-29 20:59:42,509 root         DEBUG    Test1
+2022-11-29 20:59:42,509 root         WARNING  Test
+2022-11-29 20:59:42,509 root         INFO     TestInfo
+2022-11-29 20:59:42,510 root         CRITICAL TestCritical
+2022-11-29 21:00:14,390 root         ERROR    Test!
+2022-11-29 21:00:14,390 root         DEBUG    Test1
+2022-11-29 21:00:14,390 root         WARNING  Test
+2022-11-29 21:00:14,390 root         INFO     TestInfo
+2022-11-29 21:00:14,390 root         CRITICAL TestCritical
+2022-11-29 21:00:14,401 root         ERROR    Test!
+2022-11-29 21:00:14,401 root         DEBUG    Test1
+2022-11-29 21:00:14,402 root         WARNING  Test
+2022-11-29 21:00:14,402 root         INFO     TestInfo
+2022-11-29 21:00:14,402 root         CRITICAL TestCritical
+2022-11-29 21:00:44,235 root         ERROR    Test!
+2022-11-29 21:00:44,235 root         DEBUG    Test1
+2022-11-29 21:00:44,235 root         WARNING  Test
+2022-11-29 21:00:44,235 root         INFO     TestInfo
+2022-11-29 21:00:44,235 root         CRITICAL TestCritical
+2022-11-29 21:00:44,245 root         ERROR    Test!
+2022-11-29 21:00:44,245 root         DEBUG    Test1
+2022-11-29 21:00:44,246 root         WARNING  Test
+2022-11-29 21:00:44,246 root         INFO     TestInfo
+2022-11-29 21:00:44,246 root         CRITICAL TestCritical

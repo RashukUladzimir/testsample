@@ -1,0 +1,25 @@
+<!-- ad_confirm_delete.html -->
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Delete Ad :: Billboard</title>
+ </head>
+ <body>
+   <h1>Delete Ad</h1>
+   <div>
+     <a href="{% url 'bboard:index' %}">Main page</a>
+   </div>
+   <div>
+     <p>Rubric : {{ ad.rubric.name }}</p>
+     <h2>{{ ad.title }}</h2>
+     <p>{{ ad.content }}</p>
+     <p>Price : {{ ad.price }}</p>
+     <form method="post">
+       {% csrf_token %}
+
+       <input type="submit" value="Удалить">
+     </form>
+   </div>
+ </body>
+</html>

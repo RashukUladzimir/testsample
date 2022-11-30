@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>{% block title %} Main {% endblock %} :: Billboard</title>
+
+ </head>
+ <body>
+
+
+   <h1>Ad</h1>
+   {% if ads %}
+       {% for ad in ads %}
+       <div>
+         <h2>{{ ad.title }}</h2>
+         <p>{{ ad.content }}</p>
+         <p>{{ ad.published|date:"d.m.Y H:i:s" }}</p>
+       </div>
+       {% endfor %}
+   {% else %}
+    <p>There is no ads</p>
+
+   {% endif %}
+
+
+
+ </body>
+</html>
